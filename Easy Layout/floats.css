@@ -1,0 +1,95 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+    background-color: #777777
+}
+
+header {
+  padding: 30px;
+  margin-bottom: 10px;
+  color: #777777;
+  background: #DCDCDC;
+  font-family: sans-serif;
+}
+#nav {
+    padding: 30px;
+    margin-bottom: 20px;
+    color: #777777;
+    background: #DCDCDC;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+#section {
+    padding: 120px;
+    width: 55%;
+    height: 380px;
+    padding: 10px
+    float: left;
+    color: #777777;
+    background: #DCDCDC;
+    font-family: sans-serif;
+    position: relative;
+}
+
+#article {
+    width: 115%;
+    height: 80%;
+    margin-bottom: 75px;
+    padding: 120px;
+    background: #DCDCDC;
+    background: #777777;
+    font-family: sans-serif;
+    float: left;
+    position: relative;
+}
+
+#h {
+    width: 120%;
+    padding: 15px;
+    margin-bottom: 5px;
+    clear: both;
+    overflow: auto;
+    color: #777777;
+    background: #DCDCDC;
+    font-family: sans-serif;
+    position: relative
+}
+#p {
+    width: 120%;
+    padding: 15px;
+    margin-bottom: 15px;
+    clear: both;
+    overflow: auto;
+    color: #777777;
+    background: #DCDCDC;
+    font-family: sans-serif;
+    position: relative
+}
+
+#aside {
+    padding: 30px;
+    height: 380px;
+    margin-right: 30px,0px;
+    color: #777777;
+    background: #DCDCDC;
+    float: right;
+    width: 43%;
+    border: 1px solid #eee;
+    font-family: sans-serif;
+}
+
+#footer {
+    padding: 30px;
+    margin-top: 20px;
+    color: #777777;
+    background: #DCDCDC;
+    font-family: sans-serif;
+}
